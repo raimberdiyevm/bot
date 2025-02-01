@@ -11,7 +11,7 @@ TOKEN = os.environ.get('BOT_TOKEN', '7249800610:AAF8lq68BsFVm-6leMV-FCegwMq-eqg6
 bot = telegram.Bot(token=TOKEN)
 
 # Webhook URL uchun
-url = os.environ.get('URL', 'YOUR_RAILWAY_URL')
+url = os.environ.get('URL', 'bot-production-6947.up.railway.app')
 
 # Bot komandalarini boshqarish
 def start(update, context):
